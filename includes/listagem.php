@@ -19,7 +19,8 @@ $livros = $criar->query($sql);
                         <div class="card-body">
                           <h5 class="card-title"><?= $livro["titulo"] ?></h5>
                           <p class="card-text"><?= substr($livro["descricao"], 0, 200) ?> ...</p>
-                          <p class="card-text"><small class="text-muted">Criado em: <?= $livro["ultima_atualizacao"] ?></small></p>
+                          <p class="card-text"><small class="text-muted">Livro criado em: <?= $livro["ultima_atualizacao"] ?></small></p>
+                          <p class="card-text"><small class="text-muted">Data de lançamento do livro: <?= $livro["data_lancamento"] ?></small></p>
                           <a href="#" class="card-link"><?= $livro["categoria"] ?></a>
                         </div>
                       </div>
