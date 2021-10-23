@@ -26,7 +26,7 @@
                     </div>
                     <div class="row">
                     <div class="col">
-                            <label for="exampleInputPassword1" class="form-label">Tipo de Livro</label>
+                            <label for="exampleInputPassword1" class="form-label">Categoria</label>
                             <select class="form-select" aria-label="Default select example">
                                 <option selected>Selecione:</option>
                                 <option value="1">Python</option>
@@ -43,7 +43,7 @@
                     
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" maxlength="200"></textarea>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">

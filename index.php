@@ -19,10 +19,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">C#</a>
                     </li>
+                    <li>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                    </li>
                 </ul>
             </div>
             <?php include ("includes/listagem.php"); ?>
         </div>
+        
     </div>
     <?php include ("includes/footer.php"); ?>
 

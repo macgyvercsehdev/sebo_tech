@@ -13,10 +13,7 @@
             <a class="nav-link" href="#">Sobre Nós</a>
         </ul>
       </div>
-        <form class="d-flex me-2">
-          <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
-          <button class="btn btn-success" type="submit">Buscar</button>
-        </form>
+        
         <form class="d-flex">
           <a class="btn btn-secondary btn-lg" role="button" aria-disabled="true" href="cadastro.php">Login</a>
         </form>
