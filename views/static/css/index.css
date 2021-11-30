@@ -1,0 +1,16 @@
+#titulo {
+    text-align: center;
+    background-color: blanchedalmond;
+    margin-bottom: 2%;
+    background-image: url("/views/static/img/banner-1571858_1920.jpg");
+
+}
+
+
+h1 {
+    padding: 5%;
+}
+
+.li-btn-margin {
+    margin: 10px;
+}
